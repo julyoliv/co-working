@@ -2,15 +2,43 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-color: black;
+    color: white;
+    width: 60rem;
+}
+
+body h1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .header {
     height: 10rem;
-    background-color: black;
-    color: white;
+    width: 60rem;
+    background-color: rgb(138, 102, 43);
+    display: flex;
     align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 10px;
 }
 
 .icon {
-    height: 7rem;
+    height: 20vh;
+    width: 10vw;
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    border-radius: 10px;
 }
